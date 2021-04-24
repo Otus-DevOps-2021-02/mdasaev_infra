@@ -25,3 +25,8 @@ yc compute instance create \
   --metadata-from-file user-data=cloud-config.yaml
 
   ```
+#1 PACKER
+
+Описан шаблон для создания образа ВМ с предустановленными ruby и mongoDB.
+Параметры образа указаны в шаблоне **variables.json**
+Для примера указан файл **variables.json.examples**
